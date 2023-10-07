@@ -4,5 +4,9 @@
     "config:base",
     "group:allNonMajor",
     ":assignee(@leonidboykov)"
+  ],
+  "postUpdateOptions": [
+    "gomodTidy",
+    "gomodUpdateImportPaths"
   ]
 }
